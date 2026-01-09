@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+print("ENV FILE LOADED")
+print("GOOGLE_API_KEY:", os.getenv("GOOGLE_API_KEY"))
 # --- CONFIGURATION ---
 # Load env vars: GOOGLE_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_HOST
 # API_KEY ='AIzaSyBvgmtXOmywdn-sebBEIxabkxROpXjjtVQ' #os.getenv("GOOGLE_API_KEY") 
@@ -23,10 +25,10 @@ PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "chatbot")
 
 if not API_KEY:
-    raise ValueError("GOOGLE_API_KEY is missing")
+    print("WARNING: GOOGLE_API_KEY not set")
 
 if not PINECONE_API_KEY:
-    raise ValueError("PINECONE_API_KEY is missing")
+    print("PINECONE_API_KEY is missing")
 
 
 app = FastAPI()
