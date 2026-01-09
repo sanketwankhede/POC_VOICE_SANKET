@@ -8,27 +8,13 @@ from fastapi.responses import HTMLResponse
 from google import genai
 from google.genai import types
 from pinecone import Pinecone
-from dotenv import load_dotenv
 
-load_dotenv()
-
-print("ENV FILE LOADED")
-print("GOOGLE_API_KEY:", os.getenv("GOOGLE_API_KEY"))
 # --- CONFIGURATION ---
 # Load env vars: GOOGLE_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_HOST
-# API_KEY ='AIzaSyBvgmtXOmywdn-sebBEIxabkxROpXjjtVQ' #os.getenv("GOOGLE_API_KEY") 
-# PINECONE_API_KEY = 'bbdfcf0d-b7de-4e8a-aa06-6d0c3b0066b8' #os.getenv("PINECONE_API_KEY")
-# PINECONE_INDEX_NAME = "chatbot"
+API_KEY ='AIzaSyBvgmtXOmywdn-sebBEIxabkxROpXjjtVQ' #os.getenv("GOOGLE_API_KEY") 
+PINECONE_API_KEY = 'bbdfcf0d-b7de-4e8a-aa06-6d0c3b0066b8' #os.getenv("PINECONE_API_KEY")
+PINECONE_INDEX_NAME = "chatbot"
 # --- CONFIGURATION ---
-API_KEY = os.getenv("GOOGLE_API_KEY")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "chatbot")
-
-if not API_KEY:
-    print("WARNING: GOOGLE_API_KEY not set")
-
-if not PINECONE_API_KEY:
-    print("PINECONE_API_KEY is missing")
 
 
 app = FastAPI()
@@ -262,6 +248,4 @@ async def media_stream(websocket: WebSocket):
 
 if __name__ == "__main__":
     import uvicorn
-    # uvicorn.run(app, host="0.0.0.0", port=8000)
-    port = int(os.getenv("PORT", 8000))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

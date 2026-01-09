@@ -5,4 +5,3 @@ websockets
 pinecone
 python-multipart
 twilio
-python-dotenv
