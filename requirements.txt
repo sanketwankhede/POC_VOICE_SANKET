@@ -1,0 +1,7 @@
+google-genai
+fastapi
+uvicorn
+websockets
+pinecone
+python-multipart
+twilio

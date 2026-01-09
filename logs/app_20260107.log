@@ -1,0 +1,58 @@
+2026-01-07 17:08:22,206 - main - INFO - Application starting up...
+2026-01-07 17:08:22,207 - main - INFO - Pinecone index: chatbot
+2026-01-07 17:08:23,811 - pinecone - INFO - Successfully connected to Pinecone index: chatbot
+2026-01-07 17:08:23,928 - gemini - INFO - Successfully initialized Gemini client
+2026-01-07 17:08:23,931 - main - INFO - Application startup complete
+2026-01-07 17:09:46,543 - main - INFO - Application shutting down
+2026-01-07 17:09:54,222 - main - INFO - Application starting up...
+2026-01-07 17:09:54,223 - main - INFO - Pinecone index: chatbot
+2026-01-07 17:09:55,734 - pinecone - INFO - Successfully connected to Pinecone index: chatbot
+2026-01-07 17:09:55,885 - gemini - INFO - Successfully initialized Gemini client
+2026-01-07 17:09:55,889 - main - INFO - Starting Uvicorn server on 0.0.0.0:8000
+2026-01-07 17:09:55,957 - uvicorn.error - INFO - Started server process [10124]
+2026-01-07 17:09:55,958 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 17:09:55,959 - main - INFO - Application startup complete
+2026-01-07 17:09:55,959 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 17:09:55,960 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-01-07 17:13:29,687 - uvicorn.error - INFO - Shutting down
+2026-01-07 17:13:29,798 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 17:13:29,800 - main - INFO - Application shutting down
+2026-01-07 17:13:29,800 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 17:13:29,801 - uvicorn.error - INFO - Finished server process [10124]
+2026-01-07 17:13:39,327 - main - INFO - Application starting up...
+2026-01-07 17:13:39,328 - main - INFO - Pinecone index: chatbot
+2026-01-07 17:13:41,208 - pinecone - INFO - Successfully connected to Pinecone index: chatbot
+2026-01-07 17:13:41,344 - gemini - INFO - Successfully initialized Gemini client
+2026-01-07 17:13:41,351 - main - INFO - Application startup complete
+2026-01-07 17:19:36,468 - main - INFO - Application shutting down
+2026-01-07 17:19:40,446 - main - INFO - Application starting up...
+2026-01-07 17:19:40,448 - main - INFO - Pinecone index: chatbot
+2026-01-07 17:19:42,443 - pinecone - INFO - Successfully connected to Pinecone index: chatbot
+2026-01-07 17:19:42,551 - gemini - INFO - Successfully initialized Gemini client
+2026-01-07 17:19:42,557 - main - INFO - Application startup complete
+2026-01-07 17:19:42,558 - main - INFO - Application shutting down
+2026-01-07 17:23:36,797 - main - INFO - Application starting up...
+2026-01-07 17:23:36,797 - main - INFO - Pinecone index: chatbot
+2026-01-07 17:23:38,464 - pinecone - INFO - Successfully connected to Pinecone index: chatbot
+2026-01-07 17:23:38,628 - gemini - INFO - Successfully initialized Gemini client
+2026-01-07 17:23:38,632 - main - INFO - Starting Uvicorn server on 0.0.0.0:8000
+2026-01-07 17:23:38,712 - uvicorn.error - INFO - Started server process [21164]
+2026-01-07 17:23:38,712 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 17:23:38,713 - main - INFO - Application startup complete
+2026-01-07 17:23:38,713 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 17:23:38,714 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-01-07 17:33:38,230 - main - INFO - Application starting up...
+2026-01-07 17:33:38,231 - main - INFO - Pinecone index: chatbot
+2026-01-07 17:33:40,130 - pinecone - INFO - Successfully connected to Pinecone index: chatbot
+2026-01-07 17:33:40,299 - gemini - INFO - Successfully initialized Gemini client
+2026-01-07 17:33:40,304 - main - INFO - Starting Uvicorn server on 0.0.0.0:8000
+2026-01-07 17:33:40,399 - uvicorn.error - INFO - Started server process [15328]
+2026-01-07 17:33:40,399 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 17:33:40,400 - main - INFO - Application startup complete
+2026-01-07 17:33:40,400 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 17:33:40,401 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-01-07 17:41:30,703 - uvicorn.error - INFO - Shutting down
+2026-01-07 17:41:30,821 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 17:41:30,909 - main - INFO - Application shutting down
+2026-01-07 17:41:30,969 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 17:41:31,024 - uvicorn.error - INFO - Finished server process [15328]

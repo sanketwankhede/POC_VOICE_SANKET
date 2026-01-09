@@ -1,0 +1,15 @@
+2026-01-09 09:55:11,407 - main - INFO - Application starting up...
+2026-01-09 09:55:11,408 - main - INFO - Pinecone index: chatbot
+2026-01-09 09:55:24,841 - pinecone - INFO - Successfully connected to Pinecone index: chatbot
+2026-01-09 09:55:26,422 - gemini - INFO - Successfully initialized Gemini client
+2026-01-09 09:55:26,427 - main - INFO - Starting Uvicorn server on 0.0.0.0:8000
+2026-01-09 09:55:26,544 - uvicorn.error - INFO - Started server process [7800]
+2026-01-09 09:55:26,544 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-09 09:55:26,545 - main - INFO - Application startup complete
+2026-01-09 09:55:26,546 - uvicorn.error - INFO - Application startup complete.
+2026-01-09 09:55:26,547 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-01-09 09:56:18,545 - uvicorn.error - INFO - Shutting down
+2026-01-09 09:56:18,654 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-09 09:56:18,655 - main - INFO - Application shutting down
+2026-01-09 09:56:18,655 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-09 09:56:18,656 - uvicorn.error - INFO - Finished server process [7800]

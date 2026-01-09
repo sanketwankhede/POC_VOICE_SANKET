@@ -1,0 +1,6 @@
+2026-01-07 17:20:05,896 - main - INFO - ============================================================
+2026-01-07 17:20:05,897 - main - INFO - APPLICATION STARTING
+2026-01-07 17:20:05,897 - main - INFO - ============================================================
+2026-01-07 17:20:05,898 - main - INFO - Loading configuration...
+2026-01-07 17:20:05,899 - main - INFO - Initializing Pinecone connection to index: chatbot
+2026-01-07 17:20:07,175 - main - INFO - Initializing Gemini client...
